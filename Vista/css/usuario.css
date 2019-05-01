@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,600);
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+
+.user-card {
+  font: 13px/23px "Raleway", Arial, sans-serif;
+  color: #303336;
+  padding: 40px 0;
+}
+
+.container {
+   
+      box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  margin: 0 auto;
+  width: 300px;
+  height: 465px;
+  background: white;
+  border-radius: 10px;
+  position: relative;
+}
+
+.information {
+  text-align: center;
+}
+
+.avatar {
+  margin: 0 auto;
+  margin: -82px auto 15px;
+  display: block;
+}
+
+.name {
+  font-size: 22px;
+}
+
+.position {
+  font-size: 16px;
+  color: #8c98a8;
+  margin-bottom: 24px;
+}
+
+.stats {
+  margin: auto;
+  border-top: 1px solid #CED5E0;
+  width: 240px;
+}
+.stats .followers, .stats .following, .stats .stories {
+  display: inline-block;
+  padding: 6px 10px 0;
+}
+.stats .followers, .stats .following {
+  border-right: 1px solid #CED5E0;
+}
+.stats .value {
+  font-size: 18px;
+  font-weight: 600;
+}
+.stats .label {
+  display: block;
+  font-size: 14px;
+  color: #8c98a8;
+}

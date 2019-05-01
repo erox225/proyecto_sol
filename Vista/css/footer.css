@@ -1,0 +1,21 @@
+#footer{
+    width: 90%;
+    height: 30px;
+      background: #fff;
+    margin-left:auto;
+margin-right:auto;
+left:0;
+right:0;
+ 
+   position: absolute;
+  bottom: 0;
+
+    text-align: center;
+    font-size: 25px;
+font-weight: bold;
+}
+
+html {
+  min-height: 98%;
+  position: relative;
+}
